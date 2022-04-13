@@ -1,0 +1,52 @@
+body{
+    background-color: #2e2e2e;    
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+
+.panel{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+
+
+.panel:hover{
+    box-shadow: inset 0px 0px 0px 3px rgb(109, 204, 204);
+    box-sizing: border-box;   
+}
+
+
+
+.bottom-left-panel {
+    background-color: #F50F33;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 100%;
+}
+
+.bottom-right-panel {
+    background-color: #1FC29B;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 100%;
+}
+
+.top-left-panel {
+    background-color: #F5840F;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 100%;
+}
+
+.top-right-panel {
+    background-color: #0FAFF5;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 100%;
+}
+
+.active{
+    background-color: white;
+}
